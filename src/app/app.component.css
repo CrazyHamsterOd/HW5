@@ -1,0 +1,7 @@
+div{
+  border: 1px solid black;
+  margin: auto;
+  padding: 10px;
+  display: block;
+  width: max-content;
+}

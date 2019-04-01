@@ -1,0 +1,4 @@
+<select #select ngModel="default" (change)="changeCurrency(select.value)">
+  <option value="default" disabled>-</option>
+  <option *ngFor="let currencyName of currenciesNamesList" value="{{currencyName}}">{{currencyName}}</option>
+</select>
